@@ -1,0 +1,116 @@
+
+/* General */
+body {
+  margin: 0;
+  background-color: #292929;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Navbar */
+nav {
+  background-color: #383838;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:hover {
+  background-color: #555555;
+  border-radius: 5px;
+}
+
+/* Main Content */
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Headings */
+h1 {
+  color: white;
+  margin-bottom: 25px;
+}
+
+h2, h3 {
+  color: #eeeeee;
+}
+
+p {
+  color: #cccccc;
+}
+
+/* Products */
+main > div > div {
+  background-color: #383838;
+  padding: 20px;
+  margin: 15px auto;
+  max-width: 500px;
+  border-radius: 8px;
+}
+
+/* Links */
+a {
+  color: #87cefa;
+}
+
+/* Forms */
+form {
+  background-color: #383838;
+  padding: 25px;
+  margin: 20px auto;
+  max-width: 450px;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #444444;
+  color: white;
+  border: 1px solid #666666;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  background-color: #555555;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #666666;
+}
+
+/* Delete Button */
+main a + button {
+  background-color: #903b3b;
+}
+
+main a + button:hover {
+  background-color: #aa4444;
+}
